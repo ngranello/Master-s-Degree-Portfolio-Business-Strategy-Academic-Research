@@ -1,0 +1,44 @@
+# --- OS X / macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# File di sistema per i metadati delle cartelle
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# --- Editor e IDE ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, ecc.)
+.idea/
+
+# Vim (visto che lo stai usando nello screenshot!)
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+.netrwhist
+*~
+
+# --- Log e Database ---
+*.log
+*.sql
+*.sqlite
+
+# --- Dipendenze (Scommenta quelle che ti servono) ---
+# node_modules/
+# venv/
+# .env
